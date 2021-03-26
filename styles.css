@@ -2,18 +2,20 @@
   display: flex; /* defalt flex-direction: row */
   /* Main Axis */
   justify-content: space-around;
+  align-content: center;
   height: 100vh;
+  flex-wrap: wrap;
 }
 
 .child {
   width: 200px;
   height: 200px;
   background: peru;
-  color: wight;
+  color: white;
   font-size: 22px;
-}
 
-.child:nth-child(2) {
-  align-self: center;
-  order: 1;
+  /* 숫자들 가운데로 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
