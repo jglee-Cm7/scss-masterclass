@@ -2,18 +2,20 @@
 
 (S)CSS Layout Masterclass: Flexbox & Grid
 
+Summary Post: https://www.notion.so/88928b358773483c848676ba59e02dd4?v=ad30f3c253b84f74966f9104df705f86
+
 ## Flexbox:
 
 - [x] flex-direction
-- [ ] order
-- [ ] justify-content
-- [ ] align-items
-- [ ] align-self
-- [ ] flex-wrap
-- [ ] align-content
-- [ ] flex-grow
-- [ ] flex-shrink
-- [ ] flex-basis
+- [x] order
+- [x] justify-content
+- [x] align-items
+- [x] align-self
+- [x] flex-wrap
+- [x] align-content
+- [x] flex-grow
+- [x] flex-shrink
+- [x] flex-basis
 
 ## Grid:
 
