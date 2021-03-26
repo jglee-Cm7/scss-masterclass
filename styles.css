@@ -1,8 +1,11 @@
 .wrapper {
   display: flex; /* defalt flex-direction: row */
-  justify-content: center;
-  align-items: stretch;
-  height: 50vh;
+  flex-direction: column;
+  /* Main Axis */
+  justify-content: space-between;
+  /* Cross Axis */
+  align-items: center;
+  height: 100vh;
 }
 /* 
 justify-center (main axis에서)
