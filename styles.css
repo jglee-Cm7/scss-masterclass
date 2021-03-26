@@ -1,6 +1,21 @@
 .wrapper {
-  display: flex;
+  display: flex; /* defalt flex-direction: row */
+  justify-content: center;
+  align-items: stretch;
+  height: 50vh;
 }
+/* 
+justify-center (main axis에서)
+- center : 중간으로
+- space-between : items 사이에 균일한 공간 부여
+- space-around : item 의 좌우에 균일한 마진 부여
+
+align-items (cross axis에서)
+- center : flex container 의 높이 안에서 중간으로
+- flex-start : children item의 높이만큼 위에서 아래로 (default 값)
+- flex-end : flex-start의 반대로
+- stretch : flex container 의 높이만큼 children item을 당겨버림. (children item 의 height가 없어야됨.)
+*/
 
 .box {
   width: 200px;
