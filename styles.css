@@ -2,13 +2,15 @@
   display: flex; /* defalt flex-direction: row */
   /* Main Axis */
   justify-content: space-around;
-  align-content: center;
+  /* Cross Axis */
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
 .child {
-  width: 200px;
-  height: 200px;
+  flex-basis: 200px;
+  width: 100px;
   background: peru;
   color: white;
   font-size: 22px;
@@ -21,9 +23,5 @@
 
 .child:nth-child(2) {
   background: #000;
-  flex-grow: 2;
-}
-
-.child:nth-child(3) {
-  flex-grow: 3;
+  flex-grow: 1;
 }
